@@ -1,6 +1,7 @@
 #ifndef RAY_HPP
 #define RAY_HPP
 
+
 #include "vec3.hpp"
 
 
@@ -28,5 +29,6 @@ class Ray {
         Vec3 dir;
         double tm;
 };
+
 
 #endif  // RAY_HPP

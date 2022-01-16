@@ -1,6 +1,7 @@
 #ifndef SPHERE_HPP
 #define SPHERE_HPP
 
+
 #include "rtweekend.hpp"
 
 #include "hittable.hpp"

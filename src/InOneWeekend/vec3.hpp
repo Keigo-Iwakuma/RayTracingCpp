@@ -1,6 +1,7 @@
 #ifndef VEC3_HPP
 #define VEC3_HPP
 
+
 #include <cmath>
 #include <iostream>
 
@@ -100,5 +101,6 @@ inline Vec3 cross(const Vec3 &u, const Vec3 &v) {
 inline Vec3 unit_vector(Vec3 v) {
     return v / v.length();
 }
+
 
 #endif  // VEC3_HPP
